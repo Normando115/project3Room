@@ -11,17 +11,17 @@
 // 5 for Window
 //6 for person wakes up
 // press 1 to make water faceut spit water
-import * as THREE from "../build/three.module.js";
+import * as THREE from "./build/three.module.js";
 // Import pointer lock controls
 import {
   PointerLockControls
-} from "../src/PointerLockControls.js";
+} from "./src/PointerLockControls.js";
 import {
   FontLoader
-} from "../src/FontLoader.js"
+} from "./src/FontLoader.js"
 import {
   GLTFLoader
-} from "../src/GLTFLoader.js";
+} from "./src/GLTFLoader.js";
 
 // Establish variables
 let camera, scene, renderer, controls, material, mixer, action;
