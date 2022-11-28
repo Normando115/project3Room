@@ -279,7 +279,7 @@ let mesh1;
   // Load preanimated model, add material, and add it to the scene
 const loader = new GLTFLoader();
 loader.load(
-  "../assets/room.glb",
+  "../../assets/room.glb",
 	function ( gltf ) {
 mesh1 = gltf.scene;
 mesh1.scale.set(20,20,20);
@@ -296,7 +296,7 @@ let mesh2;
   // Load preanimated model, add material, and add it to the scene
 const loader2 = new GLTFLoader();
 loader2.load(
-  "../assets/bed.glb",
+  "../../assets/bed.glb",
 	function ( gltf ) {
 mesh2 = gltf.scene;
 mesh2.scale.set(4,6,8);
@@ -314,7 +314,7 @@ let mesh3;
   // Load preanimated model, add material, and add it to the scene
 const loader3 = new GLTFLoader();
 loader3.load(
-  "../assets/bed.glb",
+  "../../assets/bed.glb",
 	function ( gltf ) {
 mesh3 = gltf.scene;
 mesh3.scale.set(4,6,8);
@@ -332,7 +332,7 @@ let mesh4;
   // Load preanimated model, add material, and add it to the scene
 const loader4 = new GLTFLoader();
 loader4.load(
-  "../assets/chair.glb",
+  "../../assets/chair.glb",
 	function ( gltf ) {
 mesh4 = gltf.scene;
 mesh4.scale.set(3,2,3);
@@ -351,7 +351,7 @@ let mesh5;
   // Load preanimated model, add material, and add it to the scene
 const loader5 = new GLTFLoader();
 loader5.load(
-  "../assets/table.glb",
+  "../../assets/table.glb",
 	function ( gltf ) {
 mesh5 = gltf.scene;
 mesh5.scale.set(4,4,4);
@@ -369,7 +369,7 @@ let mesh6;
   // Load preanimated model, add material, and add it to the scene
 const loader6 = new GLTFLoader();
 loader6.load(
-  "../assets/light.glb",
+  "../../assets/light.glb",
 	function ( gltf ) {
 mesh6 = gltf.scene;
 mesh6.scale.set(2,2,2);
@@ -387,7 +387,7 @@ let mesh7;
   // Load preanimated model, add material, and add it to the scene
 const loader7 = new GLTFLoader();
 loader7.load(
-  "../assets/tablet.glb",
+  "../../assets/tablet.glb",
 	function ( gltf ) {
 mesh7 = gltf.scene;
 mesh7.scale.set(5,5,5);
@@ -406,7 +406,7 @@ let mesh8;
   // Load preanimated model, add material, and add it to the scene
 const loader8 = new GLTFLoader();
 loader8.load(
-  "../assets/monitor.glb",
+  "../../assets/monitor.glb",
 	function ( gltf ) {
 mesh8 = gltf.scene;
 mesh8.scale.set(2,2,2);
@@ -425,7 +425,7 @@ let mesh9;
   // Load preanimated model, add material, and add it to the scene
 const loader9 = new GLTFLoader();
 loader9.load(
-  "../assets/food.glb",
+  "../../assets/food.glb",
 	function ( gltf ) {
 mesh9 = gltf.scene;
 mesh9.scale.set(2,2,2);
