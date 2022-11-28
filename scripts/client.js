@@ -351,7 +351,7 @@ let mesh5;
   // Load preanimated model, add material, and add it to the scene
 const loader5 = new GLTFLoader();
 loader5.load(
-  "assets/table.glb",
+  "assets/Table.glb",
 	function ( gltf ) {
 mesh5 = gltf.scene;
 mesh5.scale.set(4,4,4);
