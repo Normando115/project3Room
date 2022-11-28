@@ -390,8 +390,8 @@ loader7.load(
   "assets/tablet.glb",
 	function ( gltf ) {
 mesh7 = gltf.scene;
-mesh7.scale.set(5,5,5);
-mesh7.position.set(0,0 ,0);
+mesh7.scale.set(10,10,10);
+mesh7.position.set(90,24 ,-135);
 mesh7.rotation.set(0,11,0);
 		gltf.animations; // Array<THREE.AnimationClip>
 		gltf.scene; // THREE.Group
@@ -409,9 +409,9 @@ loader8.load(
   "assets/monitor.glb",
 	function ( gltf ) {
 mesh8 = gltf.scene;
-mesh8.scale.set(2,2,2);
-mesh8.position.set(90,18 ,-120);
-mesh8.rotation.set(0,15.5,0);
+mesh8.scale.set(3,3,3);
+mesh8.position.set(-62,22.5 ,-75);
+mesh8.rotation.set(0,4.5,0);
 		gltf.animations; // Array<THREE.AnimationClip>
 		gltf.scene; // THREE.Group
 		gltf.scenes; // Array<THREE.Group>
@@ -428,8 +428,8 @@ loader9.load(
   "assets/food.glb",
 	function ( gltf ) {
 mesh9 = gltf.scene;
-mesh9.scale.set(2,2,2);
-mesh9.position.set(-100,5 ,-50);
+mesh9.scale.set(4,4,4);
+mesh9.position.set(90,19 ,-130);
 		gltf.animations; // Array<THREE.AnimationClip>
 		gltf.scene; // THREE.Group
 		gltf.scenes; // Array<THREE.Group>
@@ -439,23 +439,60 @@ mesh9.position.set(-100,5 ,-50);
   },
 )
 
-// let mesh10;
-//   // Load preanimated model, add material, and add it to the scene
-// const loader10 = new GLTFLoader();
-// loader10.load(
-//   "../../assets.box2.glb",
-// 	function ( gltf ) {
-// mesh10 = gltf.scene;
-// mesh10.scale.set(2,2,2);
-// mesh10.position.set(-100,0 ,-50);
-// 		gltf.animations; // Array<THREE.AnimationClip>
-// 		gltf.scene; // THREE.Group
-// 		gltf.scenes; // Array<THREE.Group>
-// 		gltf.cameras; // Array<THREE.Camera>
-// 		gltf.asset; // Object
-// 		scene.add( mesh10 );
-//   },
-// )
+
+
+let mesh10;
+  // Load preanimated model, add material, and add it to the scene
+const loader10 = new GLTFLoader();
+loader10.load(
+  "assets/box1.glb",
+	function ( gltf ) {
+mesh10 = gltf.scene;
+mesh10.scale.set(7,7,7);
+mesh10.position.set(-70,4.3 ,80);
+		gltf.animations; // Array<THREE.AnimationClip>
+		gltf.scene; // THREE.Group
+		gltf.scenes; // Array<THREE.Group>
+		gltf.cameras; // Array<THREE.Camera>
+		gltf.asset; // Object
+		scene.add( mesh10 );
+  },
+)
+let mesh11;
+  // Load preanimated model, add material, and add it to the scene
+const loader11 = new GLTFLoader();
+loader11.load(
+  "assets/box2.glb",
+	function ( gltf ) {
+mesh11 = gltf.scene;
+mesh11.scale.set(7,7,7);
+mesh11.position.set(-70,4.3 ,100);
+		gltf.animations; // Array<THREE.AnimationClip>
+		gltf.scene; // THREE.Group
+		gltf.scenes; // Array<THREE.Group>
+		gltf.cameras; // Array<THREE.Camera>
+		gltf.asset; // Object
+		scene.add( mesh11 );
+  },
+)
+let mesh12;
+  // Load preanimated model, add material, and add it to the scene
+const loader12 = new GLTFLoader();
+loader12.load(
+  "assets/table.glb",
+	function ( gltf ) {
+mesh12 = gltf.scene;
+mesh12.scale.set(4,4,4);
+mesh12.position.set(-70,4.3 ,-80);
+mesh12.rotation.set(-0,14.1 ,0);
+		gltf.animations; // Array<THREE.AnimationClip>
+		gltf.scene; // THREE.Group
+		gltf.scenes; // Array<THREE.Group>
+		gltf.cameras; // Array<THREE.Camera>
+		gltf.asset; // Object
+		scene.add( mesh12 );
+  },
+)
 
          // Add Text under models
          const loader71 = new FontLoader();
