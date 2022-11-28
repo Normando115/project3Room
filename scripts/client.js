@@ -479,7 +479,7 @@ let mesh12;
   // Load preanimated model, add material, and add it to the scene
 const loader12 = new GLTFLoader();
 loader12.load(
-  "assets/table.glb",
+  "assets/Table.glb",
 	function ( gltf ) {
 mesh12 = gltf.scene;
 mesh12.scale.set(4,4,4);
@@ -494,18 +494,7 @@ mesh12.rotation.set(-0,14.1 ,0);
   },
 )
 
-         // Add Text under models
-         const loader71 = new FontLoader();
-                loader71.load( '../../assets/helvetiker_regular.typeface.json', function ( font ) {
-                  // Define font color
-                  const color = 0x2E5999;
-                  // Define font material
-                  const matDark = new THREE.LineBasicMaterial( {
-                    color: color,
-                    side: THREE.DoubleSide
-                  } );
 
-                });
 
   // Define Rendered and html document placement
   renderer = new THREE.WebGLRenderer({
